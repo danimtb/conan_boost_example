@@ -25,7 +25,7 @@ Retrieve your dependencies with Conan:
 
 ```
 $ cd conan_boost_example
-$ conan install ..
+$ conan install .
 # Looks for dependencies, downloads packages and generates conanbuildinfo.cmake with variables
 ```
 
