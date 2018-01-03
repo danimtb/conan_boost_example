@@ -23,12 +23,16 @@ Build steps
 
 Retrieve your dependencies with Conan:
 
-``$ cd conan_boost_example``
-``$ conan install ..``
-``# Generates conanbuildinfo.cmake with variables``
+```
+$ cd conan_boost_example
+$ conan install ..
+# Looks for dependencies, downloads packages and generates conanbuildinfo.cmake with variables
+```
 
 Configure and build your project with CMake normally (here with Visual Studio):
 
-``$ cmake configure . -G "Visual Studio 15 2017 Win64"``
-``$ cmake --build . --config Release``
-``# Compiles target in bin/async_tcp_echo_server.exe``
+```
+$ cmake configure . -G "Visual Studio 15 2017 Win64"
+$ cmake --build . --config Release
+# Compiles target in bin/async_tcp_echo_server.exe
+```
